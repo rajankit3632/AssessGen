@@ -299,6 +299,19 @@ Practice → Improve → Get Placed 🚀<br>
 
 Made with ❤️ for students preparing for placements.<br>
 
+
+<!-- ANIMATED GRADIENT DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
+<br/>
+
+  
+  Copyright © 2026 Ankit Raj<br>
+  AssessGen<br>
+  Created by: Ankit Raj<br>
+  GitHub: rajankit3632<br>
+  Original Project Signature: ASSESSGEN-ANKITRAJ<br>
+
+
 <!-- ANIMATED GRADIENT DIVIDER -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 <br/>
