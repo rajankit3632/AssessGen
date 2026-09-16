@@ -2209,6 +2209,35 @@
 }
 
 </style>
+
+<style id="compact-top-spacing">
+/* ===== COMPACT LANDING TOP SPACING ===== */
+#screen-landing {
+  justify-content: flex-start !important;
+  align-items: center !important;
+  padding: 18px 24px 40px !important;
+}
+.landing-container {
+  transform: none !important;
+}
+.ig-card {
+  margin-top: 4px !important;
+  margin-bottom: 18px !important;
+}
+.landing-logo {
+  margin-bottom: 18px !important;
+}
+.upload-card {
+  padding-top: 24px !important;
+}
+@media (max-width: 640px) {
+  #screen-landing {
+    padding: 12px 14px 32px !important;
+  }
+  .ig-card { margin-bottom: 14px !important; }
+  .landing-logo { margin-bottom: 14px !important; }
+}
+</style>
 </head>
 <body>
 
@@ -2780,6 +2809,389 @@ const _0x3dad8a=a0_0x4b49c5,_0x5efe67={'njyMV':'3|1|2|4|0','eKNkb':function(_0x3
   document.addEventListener('DOMContentLoaded',syncCustomTime);
   setTimeout(syncCustomTime,100);
   setTimeout(syncCustomTime,500);
+})();
+</script>
+
+
+<section id="aiPromptSection" class="ai-prompt-section" aria-label="ChatGPT assessment prompt">
+  <div class="ai-prompt-card">
+    <div class="ai-prompt-header">
+      <div>
+        <div class="ai-prompt-kicker">AI ASSESSMENT GENERATOR</div>
+        <h2>ChatGPT Prompt</h2>
+        <p>Copy this prompt, paste it into ChatGPT, answer the four questions, download the JSON, and upload it above.</p>
+      </div>
+      <button id="copyAssessmentPrompt" class="ai-prompt-copy" type="button">⧉ Copy Prompt</button>
+    </div>
+    <div class="ai-prompt-steps">
+      <div><b>1</b><span>Open ChatGPT</span></div>
+      <div><b>2</b><span>Paste the prompt</span></div>
+      <div><b>3</b><span>Answer the questions</span></div>
+      <div><b>4</b><span>Download JSON &amp; upload here</span></div>
+    </div>
+    <div class="ai-prompt-box"><pre id="assessmentPromptText">## ROLE
+Act as an expert Placement Assessment Designer, Aptitude Test Architect, Psychometric Test Creator, Educational Assessment Specialist, Recruitment Assessment Analyst, and JSON Generator.
+Your job is to generate realistic company-style placement aptitude assessments in valid JSON format that can be directly imported into my Aptitude Assessment Platform.
+
+# OBJECTIVE
+Generate an original placement assessment inspired by real company aptitude tests.
+Before creating the assessment, research the latest assessment pattern, difficulty level, and question style of the selected company.
+The generated questions must be completely original while closely matching the style, structure, and quality of actual placement assessments.
+The final output should be a downloadable `.json` file only.
+
+# STEP 1
+Before generating anything, ask ONLY these four questions.
+
+## 1. Company / Assessment Name (Optional)
+Examples:
+* TCS NQT
+* Infosys
+* Accenture
+* Deloitte
+* Capgemini
+* Cognizant
+* Wipro
+* Tech Mahindra
+* HCL
+* Genpact
+* Generic Placement Test
+If left blank, generate a balanced generic placement assessment.
+
+## 2. Assessment Category and ask to user which category
+Allow one or multiple selections
+Category Examples:
+* Quantitative Aptitude
+* Logical Reasoning
+* Verbal Ability (English)
+* Data Interpretation
+* Coding Aptitude
+* Mixed Assessment
+If Mixed Assessment is selected, automatically generate a realistic assessment covering all major placement aptitude sections.
+
+## 3. Number of Questions
+Examples:
+* 10
+* 20
+* 30
+* 40
+* 50
+* 60
+* 70
+* 80
+* 90
+* 100
+Generate exactly the requested number of questions.
+Wait for my answers before continuing.
+
+## 4. Ask user time required for assessment
+Example:
+* 30 minute
+* 60 minute
+* 90 minute
+* 120 minute
+
+# STEP 2
+Before generating the assessment, perform extensive web research.
+Research the latest assessment pattern of the selected company.
+Prioritize information from approximately the last 12 months whenever available.
+Research:
+* Assessment pattern
+* Assessment duration
+* Candidate interview experiences
+* Frequently tested aptitude topics
+* Question style
+* Difficulty level
+* Section distribution
+* Hiring trends
+* Recent placement experiences
+Always combine information from multiple reliable sources.
+
+# REFERENCE SOURCES
+Use these websites as references to understand question quality, assessment style, and topic distribution.
+Prioritize:
+https://www.indiabix.com/
+https://prepinsta.com/
+https://www.geeksforgeeks.org/
+https://faceprep.in/
+https://testbook.com/
+https://www.freshersnow.com/
+https://www.interviewbit.com/
+https://www.hackerrank.com/
+https://www.shl.com/
+https://mettl.com/
+https://www.ambitionbox.com/
+Official Company Career Pages
+Official Company Assessment Information
+Recent Candidate Interview Experiences
+The AI may also use other reliable sources if they provide newer or more accurate information.
+
+# IMPORTANT COPYRIGHT RULE
+Never copy or reproduce questions from any website.
+Instead:
+* Analyze the assessment pattern.
+* Analyze the writing style.
+* Analyze the question framing.
+* Analyze the topic distribution.
+* Analyze the approximate difficulty.
+Generate completely original questions inspired by those patterns.
+The generated assessment should feel authentic while remaining entirely original.
+
+# CATEGORY RESPONSIBILITIES
+The AI should intelligently generate questions based on the selected categories.
+
+## Quantitative Aptitude
+Possible Topics:
+* Percentage
+* Profit &amp; Loss
+* Ratio &amp; Proportion
+* Time &amp; Work
+* Time, Speed &amp; Distance
+* Average
+* Ages
+* Number System
+* Probability
+* Algebra
+* Simple Interest
+* Compound Interest
+* Mixtures
+* Permutation &amp; Combination
+* Pipes &amp; Cisterns
+
+## Logical Reasoning
+Possible Topics:
+* Blood Relations
+* Coding-Decoding
+* Seating Arrangement
+* Direction Sense
+* Number Series
+* Letter Series
+* Statement &amp; Assumption
+* Syllogism
+* Data Sufficiency
+* Logical Sequences
+* Puzzles
+
+## Verbal Ability (English)
+Possible Topics:
+* Reading Comprehension
+* Grammar
+* Vocabulary
+* Synonyms
+* Antonyms
+* Fill in the Blanks
+* Error Detection
+* Sentence Improvement
+* Para Jumbles
+
+## Data Interpretation
+Possible Topics:
+* Tables
+* Pie Charts
+* Line Graphs
+* Bar Graphs
+* Mixed Graphs
+* Caselets
+
+## Coding Aptitude
+Possible Topics:
+* Programming Logic
+* Output Prediction
+* Flowcharts
+* Debugging
+* Pseudocode
+* Algorithmic Thinking
+* Basic Time Complexity
+
+## Mixed Assessment
+Automatically generate a balanced company-style assessment using all relevant aptitude sections.
+
+# DIFFICULTY
+Do NOT ask the user to choose the difficulty.
+Determine the difficulty automatically based on:
+* Company assessment pattern
+* Recent placement trends
+* Candidate experiences
+* Assessment style
+Use a realistic mixture of Easy, Medium, and Hard questions.
+
+# QUESTION QUALITY
+Every question must be:
+* Original
+* Placement level
+* Grammatically correct
+* Multiple-choice
+* Have exactly one correct answer
+* Free from ambiguity
+* Similar in style to real placement assessments
+* Non-repetitive
+
+# JSON SCHEMA (STRICT)
+The generated JSON MUST strictly follow this schema.
+Never rename any field.
+Never add extra fields.
+
+## Root Object
+Use EXACTLY these keys:
+* &quot;assessment_title&quot;
+* &quot;company_name&quot;
+* &quot;duration_minutes&quot;
+* &quot;questions&quot;
+No additional root-level fields are allowed.
+
+## Question Object
+Every question MUST contain EXACTLY these keys:
+* &quot;id&quot;
+* &quot;category&quot;
+* &quot;difficulty&quot;
+* &quot;question&quot;
+* &quot;options&quot;
+* &quot;correct_answer&quot;
+* &quot;explanation&quot;
+No additional fields are allowed.
+
+# FIELD RULES
+## assessment_title
+String
+
+## company_name
+String
+
+## duration_minutes
+Integer
+Automatically calculate a realistic duration based on the total number of questions.
+
+## questions
+Array
+
+# QUESTION FIELD RULES
+## id
+* Integer
+* Starts at 1
+* Sequential
+* Unique
+
+## category
+String
+Must match one of the selected categories.
+
+## difficulty
+Must be EXACTLY one of:
+* &quot;Easy&quot;
+* &quot;Medium&quot;
+* &quot;Hard&quot;
+No other values are allowed.
+Capitalization must match exactly.
+
+## question
+String
+
+## options
+* Array
+* Exactly 4 options
+* Plain text strings only
+* No numbering
+* No prefixes like:
+ * A.
+ * B.
+ * C.
+ * D.
+ * 1.
+ * 2.
+ * 3.
+ * 4.
+* No duplicate options within a question.
+
+## correct_answer
+* Must be a string.
+* Must exactly match one of the four option strings.
+* Copy the option text character-for-character.
+* Never use option indexes.
+* Never use A/B/C/D.
+
+## explanation
+String
+Briefly explain why the answer is correct.
+
+# VALIDATION RULES
+Before generating the downloadable JSON file, validate that:
+* JSON is syntactically valid.
+* No trailing commas exist.
+* Every bracket is correctly closed.
+* Every required field is present.
+* No extra fields exist.
+* IDs are sequential.
+* IDs are unique.
+* Every question has exactly four options.
+* Every correct_answer exactly matches one option.
+* No duplicate questions exist.
+* No duplicate options exist within the same question.
+* The JSON parses successfully without errors.
+If validation fails, automatically correct the issues before creating the downloadable file.
+
+# FINAL OUTPUT
+Do NOT print the JSON inside the chat.
+Instead:
+1. Generate the complete assessment.
+2. Validate the JSON.
+3. Create a downloadable `.json` file.
+Use the following filename format:
+`&lt;CompanyName&gt;_&lt;Category&gt;_&lt;NumberOfQuestions&gt;.json`
+Examples:
+* TCS_NQT_Quantitative_Aptitude_20.json
+* Accenture_Mixed_Assessment_50.json
+* Infosys_Logical_Reasoning_30.json
+After generating the file, simply provide the downloadable JSON file.
+Do not display the JSON unless I explicitly request it.
+
+# FINAL RULE
+The generated JSON file must be immediately importable into my aptitude assessment platform without requiring any manual modifications.
+Return only the downloadable `.json` file.
+Do not include markdown, explanations, code blocks, or any additional text unless I specifically request it.</pre></div>
+    <div id="promptCopyStatus" class="prompt-copy-status" role="status" aria-live="polite"></div>
+  </div>
+</section>
+
+<style>
+.ai-prompt-section{max-width:1180px;margin:48px auto 30px;padding:0 20px}
+.ai-prompt-card{border:1px solid rgba(120,150,190,.20);border-radius:22px;padding:26px;background:linear-gradient(145deg,rgba(12,25,47,.97),rgba(7,16,32,.97));box-shadow:0 18px 60px rgba(0,0,0,.25)}
+.ai-prompt-header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.ai-prompt-kicker{font-size:11px;letter-spacing:1.8px;font-weight:800;opacity:.65;margin-bottom:7px}
+.ai-prompt-header h2{margin:0;font-size:25px}
+.ai-prompt-header p{margin:7px 0 0;opacity:.72;line-height:1.55}
+.ai-prompt-copy{border:0;border-radius:11px;padding:12px 17px;font-weight:800;cursor:pointer;background:#fff;color:#07101f;white-space:nowrap;transition:.2s}
+.ai-prompt-copy:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,0,0,.22)}
+.ai-prompt-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0}
+.ai-prompt-steps>div{display:flex;align-items:center;gap:9px;padding:11px 12px;border:1px solid rgba(150,180,220,.13);border-radius:12px;background:rgba(255,255,255,.035);font-size:13px}
+.ai-prompt-steps b{display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:rgba(255,255,255,.1);font-size:12px}
+.ai-prompt-box{max-height:520px;overflow:auto;border:1px solid rgba(150,180,220,.16);border-radius:14px;background:#050c18}
+.ai-prompt-box pre{margin:0;padding:20px;white-space:pre-wrap;word-break:break-word;font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;color:#dbe7f7}
+.prompt-copy-status{min-height:20px;margin-top:10px;font-size:13px;opacity:.8}
+@media(max-width:760px){.ai-prompt-header{flex-direction:column}.ai-prompt-copy{width:100%}.ai-prompt-steps{grid-template-columns:1fr 1fr}}
+@media(max-width:460px){.ai-prompt-steps{grid-template-columns:1fr}}
+</style>
+
+<script>
+(function(){
+  const btn=document.getElementById('copyAssessmentPrompt');
+  const box=document.getElementById('assessmentPromptText');
+  const status=document.getElementById('promptCopyStatus');
+  if(!btn || !box) return;
+  async function copyPrompt(){
+    const text=box.textContent;
+    try{
+      await navigator.clipboard.writeText(text);
+    }catch(e){
+      const ta=document.createElement('textarea');
+      ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      document.execCommand('copy'); ta.remove();
+    }
+    const old=btn.innerHTML;
+    btn.innerHTML='✓ Copied';
+    if(status) status.textContent='✓ Prompt copied to clipboard';
+    setTimeout(function(){btn.innerHTML=old;if(status)status.textContent='';},1800);
+  }
+  btn.addEventListener('click',copyPrompt);
 })();
 </script>
 
